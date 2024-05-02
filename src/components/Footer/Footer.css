@@ -1,0 +1,170 @@
+
+.bg-primaryDark {
+    background-color: #1a202c; /* Dark background color */
+    color: white; /* Text color */
+  }
+  
+  .bg-white {
+    background-color: white; /* White background color */
+  }
+  
+  /* Remove underlines from links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Grid layout styles */
+  .grid {
+    display: grid;
+  }
+  
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  /* Spacing and margins */
+  .px-12 {
+    padding: 3rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .mr-3.5 {
+    margin-right: 0.875rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mt-3 {
+    margin-top: 0.75rem;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  .mt-3.5 {
+    margin-top: 0.875rem;
+  }
+  
+  .mt-1.5 {
+    margin-top: 0.375rem;
+  }
+  
+  .my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Flex layout styles */
+  .flex {
+    display: flex;
+  }
+  
+  /* Icon size and color styles */
+  .text-base {
+    font-size: 1rem; /* Adjust as needed */
+  }
+  
+  .text-white {
+    color: white; /* Text color */
+  }
+  
+  /* Button styles */
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .bg-primaryDark {
+    background-color: #1a202c; /* Dark background color */
+  }
+  
+  .bg-white {
+    background-color: white; /* White background color */
+  }
+  
+  .bg-secondaryLight {
+    background-color: #f7fafc; /* Light background color */
+  }
+  
+  .bg-secondaryDark {
+    background-color: #2d3748; /* Dark background color */
+  }
+  
+  /* Input styles */
+  input {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Rounded image styles */
+  .rounded-md {
+    border-radius: 0.375rem; /* 6px rounded corners */
+  }
+  
+  /* Responsive layout styles */
+  .sm\:invisible {
+    display: none; /* Hide on small screens */
+  }
+  
+  .lg\:invisible {
+    display: none; /* Hide on large screens */
+  }
+  
+  /* Typography styles */
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  /* Form input styles */
+  .h-6 {
+    height: 1.5rem; /* Adjust height as needed */
+    line-height: 1.5rem; /* Adjust line-height as needed */
+    font-size: 0.875rem; /* Adjust font-size as needed */
+  }
+  
+  .w-40 {
+    width: 10rem; /* Adjust width as needed */
+  }
+  
+  .w-32 {
+    width: 8rem; /* Adjust width as needed */
+  }
+  
+  /* Negative margin styles */
+  .-m-7 {
+    margin: -1.75rem; /* Adjust negative margin as needed */
+  }
+  
+  /* Icon styles */
+  .w-10 {
+    width: 2.5rem; /* Adjust width as needed */
+  }
+  
+  .w-11 {
+    width: 2.75rem; /* Adjust width as needed */
+  }
+  
+  .w-12 {
+    width: 3rem; /* Adjust width as needed */
+  }
